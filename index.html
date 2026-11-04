@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Lab Record | V.Gunaditya</title>
+
+    <!-- Google Fonts for Michroma & BankGothic fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+    <!-- External stylesheet for better code organization -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Background logo element -->
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Background" class="bg-java-logo">
+
+    <!-- Interactive glowing cursor effect container -->
+    <div class="cursor-glow"></div>
+
+    <header id="main-header">
+        <div class="header-wrapper">
+            <!-- Profile Photo Container -->
+            <div class="profile-photo-container">
+                <img src="assets/images/profile-photo.jpg" alt="Profile Photo" class="profile-photo" id="profile-img">
+            </div>
+
+            <!-- Grouping Title and Student Info for alignment next to the photo -->
+            <div class="header-text-content">
+                <div class="title-group">
+                    <h1>Java Lab Record</h1>
+                    <div class="course-code">24CS281</div>
+                </div>
+                
+                <!-- Student Information Grid -->
+                <div class="student-info">
+                    <span class="label">Name:</span>
+                    <span class="value">V.Gunaditya</span>
+                    
+                    <span class="label">Roll No:</span>
+                    <span class="value">25EU02126</span>
+                    
+                    <span class="label">Institution:</span>
+                    <span class="value">Siddhartha Academy</span>
+                    
+                    <span class="label">Instructor:</span>
+                    <span class="value">Ramesh Sir</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Main Grid for Weekly Lab Records -->
+        <div class="grid" id="main-grid">
+            
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 1</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> Introduction to Java installation, execution, and basic programming language comparisons.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Language Comparisons (Java vs C / C++ / Python / JS), JDK Configuration, Hello World Execution.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-01.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-01.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 2</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To perform foundational Java operations including variables, arithmetic, and control flow.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Primitive Data Types, Arithmetic Operations, Type Casting (Widening / Narrowing), ASCII Conversions, Even / Odd Logic, For Loops.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-02.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-02.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 3</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To understand Class fundamentals, object declaration, and method implementation.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Student / Employee Information Systems, Object Reference Variables, Array of Objects, Calculator Methods, Rectangle Operations.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-03.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-03.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 4</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To implement constructors, method overloading, and observe Garbage Collection.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Default / Parameterized Constructors, Constructor Chaining, 'this' Keyword, Overloading Arithmetic & Area Methods, Object Eligibility for GC.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-04.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-04.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 5</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To work with objects as parameters/returns and understand static behaviors.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Passing / Comparing Objects, Returning Objects (BankAccount), Static Variables (Student Count), Static Methods (Utility Math).
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-05.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-05.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 6</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To introduce the final keyword and implement various types of Inner Classes.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Final Variables / Methods / Classes, Blank Final Variables, Static Inner Classes (College.Department), Non-Static Inner Classes (Student.Address, Library.Book).
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-06.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-06.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 7</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To explore String handling utilities and introduce basic Inheritance.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> String Constructors, Literal vs New Keyword, StringBuffer Class (Append / Insert / Replace), StringTokenizer Class, Basic Inheritance (Person -> Student).
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-07.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-07.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 8</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To implement advanced Inheritance, method overriding, and Dynamic Method Dispatch.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> 'super' Keyword, Multilevel Inheritance (Salary Calculation), Method Overriding (Animal Sounds), Dynamic Method Dispatch (Bank Accounts / Shapes).
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-08.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-08.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 9</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To organise and reuse Java code using packages and to achieve abstraction and polymorphism using interfaces.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Packages, access modifiers, CLASSPATH, interfaces, polymorphism, interface inheritance.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-09.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-09.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 10</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> Practice implementing error-handling and file I/O operations in Java.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> The key concepts are Java exception management (including try-catch, propagation, and custom exceptions) and byte-stream file manipulation.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-10.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-10.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 11</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To perform file handling and multithreading in Java using character streams and the Thread class.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Reader and Writer, FileReader, FileWriter, file copying, counting characters, words and lines, the main thread, creating threads with Thread and Runnable, concurrent execution, isAlive() and join().
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-11.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-11.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="openWeek(this)">
+                <h2>Week 12</h2>
+                <div class="week-details">
+                    <p><strong>Aim:</strong> To understand multithreading concepts and apply lambda expressions in Java programs.</p>
+                    <div class="concepts">
+                        <strong>Concepts:</strong> Thread priorities (MIN_PRIORITY, NORM_PRIORITY, MAX_PRIORITY), thread execution, synchronization using methods and blocks, race conditions, synchronized ticket booking, functional interfaces, lambda expressions, generic functional interfaces, ArrayList iteration and filtering, sorting collections, and creating threads with lambda expressions.
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/docs/week-12.pdf" target="_blank" class="btn">Open Document</a>
+                        <a href="assets/docs/week-12.pdf" download class="btn btn-secondary">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="full-page-view">
+            <button class="btn-back" onclick="closeWeek()">← Back to Weeks</button>
+            <div class="full-page-content" id="full-page-content">
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 V.Gunaditya | Siddhartha Academy of Higher Education
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
